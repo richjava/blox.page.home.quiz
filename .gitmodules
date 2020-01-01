@@ -10,3 +10,6 @@
 [submodule "partials/blox.partial.landing.quiz"]
 	path = partials/blox.partial.landing.quiz
 	url = https://github.com/richjava/blox.partial.landing.quiz.git
+[submodule "partials/blox.partial.resources.quiz"]
+	path = partials/blox.partial.resources.quiz
+	url = https://github.com/richjava/blox.partial.resources.quiz.git

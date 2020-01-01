@@ -1,13 +1,13 @@
 {% set blox = htmlWebpackPlugin.options.blox %}
 {% set title = "Home" %}
 {% set pagePartialsPath = "pages/blox.page.home.quiz/partials/" %}
-{% set setPartialsPath = "packages/partials/" %}
+{% set packagePartialsPath = "" %}
 {% extends "layout/layout.njk" %}
 {% block content %}
     {% include pagePartialsPath + "blox.partial.landing.quiz/landing.njk" %}
     {% include pagePartialsPath + "blox.partial.intro.quiz/intro.njk" %}
     {% include pagePartialsPath + "blox.partial.bio.quiz/bio.njk" %}
     {% include pagePartialsPath + "blox.partial.how-it-works.quiz/how-it-works.njk" %}
-    {% include setPartialsPath + "blox.partial-package.social/blox.partial.socialbar.quiz/socialbar.njk" %}
+    {% include "packages/partials/blox.partial-package.social/blox.partial.socialbar.quiz/socialbar.njk" %}
     {% include pagePartialsPath + "blox.partial.resources.quiz/resources.njk" %}
 {% endblock %}
