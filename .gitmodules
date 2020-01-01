@@ -1,0 +1,3 @@
+[submodule "partials/blox.partial.bio.quiz"]
+	path = partials/blox.partial.bio.quiz
+	url = https://github.com/richjava/blox.partial.bio.quiz.git
