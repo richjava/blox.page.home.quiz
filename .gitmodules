@@ -4,3 +4,6 @@
 [submodule "partials/blox.partial.how-it-works.quiz"]
 	path = partials/blox.partial.how-it-works.quiz
 	url = https://github.com/richjava/blox.partial.how-it-works.quiz.git
+[submodule "partials/blox.partial.intro.quiz"]
+	path = partials/blox.partial.intro.quiz
+	url = https://github.com/richjava/blox.partial.intro.quiz.git
